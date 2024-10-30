@@ -37,6 +37,19 @@
         .card:hover {
             transform: scale(1.05);
         }
+        .card2 {
+            background: red;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1 1 calc(30% - 40px);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card2:hover {
+            transform: scale(1.05);
+        }
         h2 {
             margin: 0 0 10px;
         }
@@ -72,12 +85,17 @@
         <button onclick="toggleBio('bio1')">Show Bio</button>
         <p id="bio1" class="bio">Caleb is a skilled software developer with years of experience.</p>
     </div>
-    <div class="card">
-        <img src="img/CalebPic.JPG" alt="'s profile picture." width="100">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
+    <div class="card2">
+        <img src="img/headshot_danielferrer.jfif" alt="'s profile picture." width="100">
+        <h2>Daniel Ferrer</h2>
+        <p>Cybersecurity Analyst</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+        <p id="bio2" class="bio">Daniel is responsible for researching and analyzing malware and vulnerabilities.
+        <p>Inspiration:</p><img src="img/inspire.jpg" alt="s inspiration" width = "100">
+        <a href="https://github.com/dmferrer00">Github</a></p>
+
+
+
     </div>
     <div class="card">
         <img src="img/CalebPic.JPG" alt="'s profile picture." width="100">
