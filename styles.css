@@ -88,3 +88,15 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+#rules_header{
+    margin-top: 30px;
+}
+
+#list_of_rules{
+    margin-top: -10px;
+}
+
+#list_of_rules > li{
+    padding-bottom: 10px;
+}
